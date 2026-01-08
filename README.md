@@ -1,21 +1,28 @@
-### Churn Prediction
+# Churn Prediction – Telco Customer Retention
 
-This project aims to address the business problem:
+## Overview
+Customer churn is a major challenge in the telecommunications industry, as losing customers directly impacts long-term revenue. This project focuses on **predicting customer churn probability** using historical customer behavior data and evaluating the model from a **business impact perspective**.
 
-> **How to reduce customer churn in a Telco company by predicting customers’ churn probability.**
+Instead of only measuring model accuracy, this project emphasizes how machine learning can support **data-driven retention strategies**, helping companies reduce unnecessary costs while minimizing revenue loss due to churn.
 
-The project follows the **CRISP-DM framework**, starting from business understanding to model evaluation with business-oriented conclusions.
+## Problem Statement
+How can a Telco company reduce customer churn by identifying customers who are likely to leave and applying targeted retention strategies effectively?
 
-Three evaluation metrics are used to assess the model performance:
+## Approach
+- Analyze historical customer behavior to understand churn patterns
+- Perform data preprocessing and feature engineering
+- Train and compare multiple classification models
+- Evaluate models using business-relevant metrics such as **recall, precision, and ROC-AUC**
+- Translate model performance into **cost and revenue impact** through business simulations
 
-* **Recall** — to measure how many actual churn customers can be successfully detected and retained
-* **Precision** — to evaluate cost efficiency by minimizing unnecessary retention incentives
-* **AUC (ROC)** — to assess the model’s overall ability to distinguish churn and non-churn customers regardless of classification threshold
+## Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-A business simulation is conducted to translate model performance into **cost and revenue impact**, showing that:
-
-* **Precision controls retention cost**
-* **Recall drives revenue recovery**
-* **AUC ensures the model is reliable for probability-based decision making**
-
-This project emphasizes that in churn prediction, **business-aligned evaluation metrics are more important than accuracy alone**.
+## Author
+**Trio Setiawan**  
+Applied Data Science Student | Data Science Enthusiast
