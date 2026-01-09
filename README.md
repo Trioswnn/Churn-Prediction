@@ -1,4 +1,4 @@
-# Churn Prediction – Telco Customer Retention
+# Predicting the Churn Probability of Customers Given the Historical Behaviour in Telco Company
 
 ## Overview
 Customer churn is a major challenge in the telecommunications industry, as losing customers directly impacts long-term revenue. This project focuses on **predicting customer churn probability** using historical customer behavior data and evaluating the model from a **business impact perspective**.
@@ -25,4 +25,4 @@ How can a Telco company reduce customer churn by identifying customers who are l
 
 ## Author
 **Trio Setiawan**  
-Applied Data Science Student | Data Science Enthusiast
+Data Science Student | Data Science and Machine Learning Enthusiast
